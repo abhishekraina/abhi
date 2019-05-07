@@ -1,0 +1,14 @@
+{
+  "name": "quinstreetassignment",
+  "version": "1.0.0",
+  "description": "\"Graph implementation for Metro Stations of Madrid\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Raina",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

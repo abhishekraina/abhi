@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quinstreet Assignment</title>
+    <link type="text/css" rel="stylesheet" href="assets/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/styles.css">
+    <script src="js/priorityqueue.js"></script>
+    <script src="js/graph.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1 class="text-info text-center p-2">
+        QuinStreet Assignment
+    </h1>
+
+    <div class="container">
+        <!-- User form -->
+
+        <div class="row">
+            <div class="col">
+                <input id="source" type="text" class="form-control" placeholder="Source" onkeyup="inputChange(this)">
+
+                <ul class="list-group stationslist" id="list1"></ul>
+            </div>
+            <div class="col">
+                <input id="destination" type="text" class="form-control" placeholder="Destination"
+                    onkeyup="inputChange(this)">
+
+                <ul class="list-group stationslist" id="list2"></ul>
+            </div>
+
+            <!-- Search Button -->
+            <div class="col-1">
+                <button type="text" class="btn btn-info" onclick="getShortestPath()">Search</button>
+            </div>
+        </div>
+
+        <!-- Path Showing Area -->
+        <div class="container justify-content" id="path"></div>
+    </div>
+
+</body>
+
+</html>

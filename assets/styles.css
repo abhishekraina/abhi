@@ -1,0 +1,8 @@
+/* Classes for styling */
+
+/* Class for dynamic list component */
+.stationslist{
+    max-height:200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
